@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿// CPOL license agreement notice:
+// FastDirectoryEnumeration was modified in October 2024
+// from the original version by wilsone8 with the following changes:
+// - use LibraryImport instead of DllImport
+// - documentation comments were modified, fixed or removed in some places
+// - the FileEnumerator was adjusted to avoid the extra DirectoryInfo.GetDirectories call
+// - additional file counting-related methods were added
+// - obsolete APIs involving code security were removed or adjusted accordingly
+
+using System.Collections;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Security;

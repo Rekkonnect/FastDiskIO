@@ -1,4 +1,9 @@
-﻿using Microsoft.Win32.SafeHandles;
+﻿// CPOL license agreement notice:
+// SafeFindHandle was modified in October 2024
+// from the original version by wilsone8 with the following changes:
+// - use LibraryImport instead of DllImport
+
+using Microsoft.Win32.SafeHandles;
 using System.Runtime.InteropServices;
 
 namespace FastDiskIO;

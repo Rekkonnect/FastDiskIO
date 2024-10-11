@@ -7,7 +7,7 @@ A project providing fast disk IO operations
 The contained code is targeted for Windows devices.
 
 Source code for the fast file enumeration was originally taken from
-https://www.codeproject.com/Articles/38959/A-Faster-Directory-Enumerator
+https://www.codeproject.com/Articles/38959/A-Faster-Directory-Enumerator, authored by **wilsone8**.
 
 The code was modified accordingly to prove that the implemented mechanism can be faster than .NET's
 built-in file enumeration technique. The original post mentions being able to enumerate files over

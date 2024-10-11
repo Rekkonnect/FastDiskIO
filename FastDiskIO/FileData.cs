@@ -1,4 +1,10 @@
-﻿namespace FastDiskIO;
+﻿// CPOL license agreement notice:
+// FileData was modified in October 2024
+// from the original version by wilsone8 with the following changes:
+// - documentation comments were modified, fixed or removed in some places
+// - WIN32_FIND_DATA was changed to a struct and is being passed by ref
+
+namespace FastDiskIO;
 
 /// <summary>
 /// Contains information about a file returned by

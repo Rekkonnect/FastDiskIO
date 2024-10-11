@@ -1,4 +1,10 @@
-﻿using System.Runtime.InteropServices;
+﻿// CPOL license agreement notice:
+// WIN32_FIND_DATA was modified in October 2024
+// from the original version by wilsone8 with the following changes:
+// - using fixed char buffers for marshalling, avoiding premature string allocations
+// - providing methods to retrieve the file name from the structure
+
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace FastDiskIO;
