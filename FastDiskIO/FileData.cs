@@ -1,8 +1,5 @@
 ﻿namespace FastDiskIO;
 
-// Source from
-// https://www.codeproject.com/Articles/38959/A-Faster-Directory-Enumerator
-
 /// <summary>
 /// Contains information about a file returned by
 /// <see cref="FastDirectoryEnumeration"/>.

@@ -4,10 +4,14 @@ A project providing fast disk IO operations
 
 ## Disclaimer
 
-Source code originally taken from
+The contained code is targeted for Windows devices.
+
+Source code for the fast file enumeration was originally taken from
 https://www.codeproject.com/Articles/38959/A-Faster-Directory-Enumerator
 
-The code was modified accordingly to prove that the implemented mechanism can be faster than .NET's built-in file enumeration technique.
+The code was modified accordingly to prove that the implemented mechanism can be faster than .NET's
+built-in file enumeration technique. The original post mentions being able to enumerate files over
+the local network also, which has not been tested in this library. Feel free to test this out.
 
 ## Give me the juice
 
@@ -37,4 +41,5 @@ Total: 301,000 Files, 300 Folders
 
 ## Future considerations
 
-This repo might contain more faster disk IO operations in the future covering arising needs. Feel free to open issues ensuring that enough research was done covering the requested operation.
+This repo might contain more faster disk IO operations in the future covering arising needs.
+Feel free to open issues ensuring that enough research was done covering the requested operation.

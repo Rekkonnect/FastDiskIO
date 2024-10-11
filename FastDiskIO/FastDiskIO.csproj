@@ -11,19 +11,21 @@
     <IsPackable>True</IsPackable>
     <Product>FastDiskIO</Product>
     <PackageId>FastDiskIO</PackageId>
-    <Version>1.0.0</Version>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.1</Version>
     <PackageTags>disk, io, file-count</PackageTags>
     <Description>Fast disk IO operations, including recursive file count</Description>
-    <Copyright>© 2024, Rekkon</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>© 2024, wilsone8, Rekkon</Copyright>
     <RepositoryUrl>https://github.com/Rekkonnect/FastDiskIO</RepositoryUrl>
-    <Authors>Rekkon</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Authors>wilsone8;Rekkon</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
-  <ItemGroup Label="README reference">
+  <ItemGroup Label="README and LICENSE references">
     <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
